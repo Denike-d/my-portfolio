@@ -1,0 +1,42 @@
+.heroSection{
+    display: flex;  
+    justify-content: space-between;
+    background-color: #F5FCFF;
+    height: 25rem;
+
+    .heroSection__text{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    .heroSection__bio{
+       text-align: center;
+    }
+    .heroSection__btn{
+        padding: 5px 15px;
+        background-color: #3DB5E9;
+        display: inline-block;
+        border-radius: 5px;
+        color: white;
+    }
+    h2{
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    p{
+      font-size: 1.2rem;
+      letter-spacing: 3px;
+    }
+ 
+    .heroSection__image{
+        width: 50%;
+        object-fit: cover;
+
+        .heroSection__img{
+            width: 100%;
+            border: 2px solid red; 
+        }
+    }
+    
+}

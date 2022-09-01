@@ -1,0 +1,36 @@
+.skills{
+    margin: 5rem 2rem;
+    hr{
+       background-color: #3DB5E9;
+       height: 1px;
+       border: none;
+    }
+    h3{
+        display: flex;
+        justify-content: center;
+        letter-spacing: 6px;
+    }
+
+    .skills__type{
+        display: flex;
+        justify-content: space-between;
+        margin: 3rem 0;
+        
+    }
+    .skills__graphics{
+        padding:1rem 2rem;
+        background-color: #3DB5E9;
+        color: white;
+    }
+
+    .skills__frontend{
+        padding: 1rem 2rem;
+        background-color: #3DB5E9;
+        color: white;
+    }
+    .skills__uiux{
+        padding: 1rem 2rem;
+        background-color: #3DB5E9;
+        color: white;
+    }
+}
