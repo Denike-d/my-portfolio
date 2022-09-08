@@ -1,25 +1,27 @@
 import React, { Fragment } from "react";
 import "./NavBar.scss";
 import { Link } from "react-router-dom";
+import About from "../About/About";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function NavBar() {
   return (
     <Fragment>
       <nav className="navbar">
-        <h3>O.A</h3>
+        <h5 style={{ color: "#E835AA" }}>Adenike .O.</h5>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <AnchorLink href="#">Home</AnchorLink>
           </li>
           <li>
-            <a href="#">About me</a>
+            <AnchorLink href="#about">About me</AnchorLink>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <AnchorLink href="#project">Portfolio</AnchorLink>
           </li>
         </ul>
         <p>
-          <a href="#">Contact me</a>
+          <AnchorLink href="adenicks727@gmail.com">Contact me</AnchorLink>
         </p>
       </nav>
       <div>

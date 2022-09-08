@@ -1,0 +1,40 @@
+.projects{
+    margin: 5rem 2rem;
+    h2{
+        display: flex;
+        justify-content: center;
+        letter-spacing: 1.5rem;
+    }
+    .projects__one{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        margin: 5rem 10rem;
+    }
+    .projects__two{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        margin: 5rem 10rem;
+    }
+    .projects__three{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        margin: 5rem 10rem;
+    }
+    .projects__info{
+        margin: auto;
+    }
+    .projects__btn{
+        padding: 5px 15px;
+        background-color: #3DB5E9;
+        display: inline-block;
+        border-radius: 5px;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}

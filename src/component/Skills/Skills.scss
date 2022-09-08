@@ -1,36 +1,67 @@
 .skills{
-    margin: 5rem 2rem;
-    hr{
-       background-color: #3DB5E9;
-       height: 1px;
-       border: none;
-    }
-    h3{
+    padding: 2rem 2rem;
+    background-color: #fff7fc;
+
+    .skills__text{
         display: flex;
+        margin: auto;
         justify-content: center;
-        letter-spacing: 6px;
     }
+    .skills__details{
+        text-align: center;
+    }
+    .skills__icons{
+        margin-top:3rem;
+    }
+    .skills__icon{
+        margin: 1.5rem;
+    }
+    // h2{
+    //     display: flex;
+    //     justify-content: center;
+    //     // letter-spacing: 1.5rem;
+    // }
 
-    .skills__type{
-        display: flex;
-        justify-content: space-between;
-        margin: 3rem 0;
+    // .skills__type{
+    //     display: grid;
+    //     grid-template-columns: repeat(3, 1fr);
+    //     grid-gap: 2rem;
+    //     margin: 3rem 0;
         
-    }
-    .skills__graphics{
-        padding:1rem 2rem;
-        background-color: #3DB5E9;
-        color: white;
-    }
+    // }
+    // .skills__icon{
+    //     padding: 0.6rem 0.8rem;
+    //     background-color:#e2f4fc;
+    //     display: inline-block;
+    //     color: #3DB5E9;
+    //     border-radius: 5px;
+    // }
+    // .skills__graphics{
+    //     padding: 1rem 2rem;
+    //     background-color: white;
+    //     color: rgb(79, 78, 78);
+    //     border-radius: 6px;
+    //     box-shadow: 11px 11px 9px -12px rgba(146,151,151,0.75);
+    //     -webkit-box-shadow: 11px 11px 9px -12px rgba(146,151,151,0.75);
+    //     -moz-box-shadow: 11px 11px 9px -12px rgba(146,151,151,0.75);
+    // }
 
-    .skills__frontend{
-        padding: 1rem 2rem;
-        background-color: #3DB5E9;
-        color: white;
-    }
-    .skills__uiux{
-        padding: 1rem 2rem;
-        background-color: #3DB5E9;
-        color: white;
-    }
+    // .skills__frontend{
+    //     padding: 1rem 2rem;
+    //     background-color: white;
+    //     color: rgb(79, 78, 78);
+    //     border-radius: 6px;
+    //     box-shadow: 11px 11px 9px -12px rgba(146,151,151,0.75);
+    //     -webkit-box-shadow: 11px 11px 9px -12px rgba(146,151,151,0.75);
+    //     -moz-box-shadow: 11px 11px 9px -12px rgba(146,151,151,0.75);
+    // }
+    // .skills__uiux{
+    //     padding: 1rem 2rem;
+    //     background-color: white;
+    //     color: rgb(79, 78, 78);
+    //     border-radius: 6px;
+    //     box-shadow: 11px 11px 9px -12px rgba(146,151,151,0.75);
+    //     -webkit-box-shadow: 11px 11px 9px -12px rgba(146,151,151,0.75);
+    //     -moz-box-shadow: 11px 11px 9px -12px rgba(146,151,151,0.75);
+    // }
 }
