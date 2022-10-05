@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Cover from "./Cover.svg";
 import Counter from "./Counter.svg";
+import Avion from "./Avion.svg";
 import "./Project.scss";
 import { motion } from "framer-motion";
 
@@ -32,13 +33,15 @@ function Project() {
       <Carousel variant="dark">
         <Carousel.Item>
           <img
-            src={Cover}
+            src={Avion}
             className="d-block w-100 h-50"
             // src="holder.js/800x400?text=First slide&bg=373940"
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
+            <a href="https://avion-store.vercel.app/">
+              <h5>View Website</h5>
+            </a>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -50,8 +53,8 @@ function Project() {
               <h5>View Website</h5>
             </a>
             <p>
-              A counter application focused on counting the number of word,
-              sentences, lines and characters of a text built with React js.
+              A counter application used to count the number of word, sentences,
+              lines and characters of a text built with React js.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
