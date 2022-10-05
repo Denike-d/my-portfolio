@@ -3,10 +3,31 @@ import Carousel from "react-bootstrap/Carousel";
 import Cover from "./Cover.svg";
 import Counter from "./Counter.svg";
 import "./Project.scss";
+import { motion } from "framer-motion";
+
+// const cardVariants = {
+//   offscreen: {
+//     opacity: 0,
+//     y: 300,
+//   },
+//   onscreen: {
+//     y: 0,
+//     opacity: 1,
+//     transition: {
+//       type: "spring",
+//     },
+//   },
+// };
 
 function Project() {
   return (
-    <div className="carousel" id="project">
+    <div
+      className="carousel"
+      id="project"
+      // variants={cardVariants}
+      // initial="offscreen"
+      // whileInView="onscreen"
+    >
       <h4 style={{ color: "#E835AA", marginTop: "4rem" }}>My Projects</h4>
       <Carousel variant="dark">
         <Carousel.Item>
@@ -36,7 +57,6 @@ function Project() {
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={Cover} alt="Third slide" />
-
           <Carousel.Caption>
             <a href="#">
               <h5>View Website</h5>

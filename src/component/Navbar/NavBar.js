@@ -6,7 +6,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function NavBar() {
   return (
-    <Fragment>
+    <div className="header">
       <nav className="navbar">
         <h5 style={{ color: "#E835AA" }}>Adenike .O.</h5>
         <ul>
@@ -19,6 +19,9 @@ export default function NavBar() {
           <li>
             <AnchorLink href="#project">Portfolio</AnchorLink>
           </li>
+          <li>
+            <a href="https://denike.hashnode.dev/">Blog</a>
+          </li>
         </ul>
         <p>
           <AnchorLink href="adenicks727@gmail.com">Contact me</AnchorLink>
@@ -27,6 +30,6 @@ export default function NavBar() {
       <div>
         <div></div>
       </div>
-    </Fragment>
+    </div>
   );
 }

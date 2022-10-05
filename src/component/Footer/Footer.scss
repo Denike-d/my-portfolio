@@ -22,3 +22,19 @@
     }
 
 }
+@media only screen and (max-width: 700px) {
+    .footer{
+        display: block;
+        padding: 2rem 3rem ;
+
+        .contact{
+            display: block;
+
+        }
+        .socials{
+            display: block;
+        }
+    }
+    
+  
+}

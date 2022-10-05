@@ -1,10 +1,8 @@
 .heroSection{
-    display: flex;  
-    justify-content: space-between;
-    // background-color: #FBD6EE;
-    background-color: #fff7fc;
-    height: 25rem;
-
+    padding: 5rem;
+    margin-top: 5rem;
+    background-color: #ffe8f7;
+    
     .heroSection__text{
         display: flex;
         margin: auto;
@@ -16,6 +14,7 @@
     .heroSection__button{
         display: flex;
         justify-content: center;
+     
 
         .heroSection__btn{
             padding: 5px 15px;
@@ -27,11 +26,11 @@
         
         .heroSection__btn-cv{
             border: 1px solid #E835AA;
-            margin-left: 1rem;
             display: inline-block;
             border-radius: 5px;
-            padding: 5px 15px;
+            padding: 4px 15px;
             color: #E835AA;
+            margin-left: 1rem;
          
             a{
                 text-decoration: none;
@@ -48,6 +47,11 @@
     p{
       font-size: 1.2rem;
       letter-spacing: 3px;
+
+      animation: fadeInDown;
+      animation-duration: 3s;
+      animation-delay: 0.9s;
+      
     }
  
     .heroSection__image{
@@ -60,4 +64,27 @@
         }
     }
     
+}
+
+@media only screen and (max-width: 700px) {
+    .heroSection{
+        background-color: #ffffff;
+        padding: 2rem;
+
+        .heroSection__text{
+            display: flex;
+            margin: auto;
+        }
+
+        .heroSection__button{
+            display: block;
+
+            .heroSection__btn-cv{
+                margin-left: 0em;
+            }
+        }
+
+    }
+    
+  
 }
