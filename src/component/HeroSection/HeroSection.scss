@@ -1,68 +1,15 @@
 .heroSection{
-    padding: 5rem;
-    margin-top: 5rem;
-    background-color: #ffe8f7;
-    
-    .heroSection__text{
-        display: flex;
-        margin: auto;
-        justify-content: center;
-    }
-    .heroSection__bio{
-       text-align: center;
-    }
-    .heroSection__button{
-        display: flex;
-        justify-content: center;
-     
-
-        .heroSection__btn{
-            padding: 5px 15px;
-            background-color: #E835AA;
-            display: inline-block;
-            border-radius: 5px;
-            color: white;
-        }
-        
-        .heroSection__btn-cv{
-            border: 1px solid #E835AA;
-            display: inline-block;
-            border-radius: 5px;
-            padding: 4px 15px;
-            color: #E835AA;
-            margin-left: 1rem;
-         
-            a{
-                text-decoration: none;
-                color: #3DB5E9;
-            }
-        }
-    } 
- 
-    h2{
-        font-size: 2rem;
-        font-weight: bold;
-        letter-spacing: 3px;
+   .heroSection__text{
+    .name{
+        font-size: 2rem ;
     }
     p{
-      font-size: 1.2rem;
-      letter-spacing: 3px;
-
-      animation: fadeInDown;
-      animation-duration: 3s;
-      animation-delay: 0.9s;
-      
+        font-size: 5rem;
+        font-weight: bold;
+        padding: 1rem 7rem;
+        
     }
- 
-    .heroSection__image{
-        width: 50%;
-        object-fit: cover;
-
-        .heroSection__img{
-            width: 100%;
-            border: 2px solid red; 
-        }
-    }
+   } 
     
 }
 

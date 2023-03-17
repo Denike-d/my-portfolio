@@ -5,16 +5,19 @@ import About from "./component/About/About";
 import Projects from "./component/Projects/Projects";
 import Project from "./component/Project/Project";
 import Footer from "./component/Footer/Footer";
+import Works from "./component/Works/Works";
+import "./App.scss";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <NavBar />
       <HeroSection />
       <About />
-      <Skills />
+      {/* <Skills /> */}
       {/* <Projects /> */}
-      <Project />
+      <Works />
+      {/* <Project /> */}
       <Footer />
     </div>
   );

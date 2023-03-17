@@ -1,0 +1,33 @@
+.project-container{
+    margin: 2rem 4rem;
+    .project{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        margin-top: 3rem;
+        
+        .project-work{
+            background-color: #EEE7CD;
+            display: inline-block;
+            width: 500px;
+            border-radius: 0.5rem;
+
+            .view{
+
+                svg{
+                    width: 24px;
+                    margin-right: 0.5rem;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: rgb(110, 110, 110)
+                }
+            }
+
+            .project-details{
+                padding: 2rem;
+            }
+        }
+    }
+}

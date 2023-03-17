@@ -42,7 +42,9 @@ function Project() {
             <a href="https://avion-store.vercel.app/">
               <h5>View Website</h5>
             </a>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>
+              An e-commerce websites for buying clothes and accessories online
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
