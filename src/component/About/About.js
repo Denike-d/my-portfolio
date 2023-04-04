@@ -9,7 +9,7 @@ export default function About() {
       <div className="about" id="about">
         <div className="about__bio">
           <div className="about__text">
-            <h3 style={{ color: "#E835AA" }}>About Me</h3>
+            <h3 style={{ color: "black" }}>About Me</h3>
             <div>
               <p style={{ fontSize: "1.2rem" }} id="text">
                 My name is Adenike Ogunmodede, a Frontend Developer based in
@@ -27,9 +27,8 @@ export default function About() {
                 React js and Tailwind Css.
                 <br />
                 <br />
-                Aside from being a Frontend Developer, I engage in tech
-                community activities. I’m a volunteer in some tech community
-                groups in my country.
+                Aside from being a Frontend Developer, I engage in building tech
+                communities in Nigeria.
               </p>
               {/* <h5>My Skills</h5>
               <p>
@@ -53,6 +52,7 @@ export default function About() {
             <p>CSS</p>
             <p>SASS/SCSS</p>
             <p>Tailwind CSS</p>
+            <p>Firebase</p>
           </div>
           <div className="work-experience">
             <p>Work Experience</p>

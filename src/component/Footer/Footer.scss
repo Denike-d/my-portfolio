@@ -1,23 +1,35 @@
 .footer{
-    margin-top: 3rem;
-    padding: 3rem;
-    background-color: #272727;
-    color: white;
-    display: flex;
-    justify-content: space-between;
+    // padding: 3rem;
+    // background-color: #272727;
+   
+    // display: flex;
+    // justify-content: space-between;
  
-
+    .container{
+        margin-top: 3rem;
+        // color: rgb(44, 44, 44);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        // margin: 0 auto;
+       
+    }
     .contact{
        display: flex;
     }
 
     .socials{
         display: flex;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: center;
         // justify-content: space-around;
 
         .socials__images{
            display: flex;
            justify-content: space-between;
+           
         }
     }
 

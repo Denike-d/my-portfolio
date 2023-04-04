@@ -16,6 +16,12 @@ export default function NavBar() {
           <li>
             <AnchorLink href="#about">About</AnchorLink>
           </li>
+          <li>
+            <p>Resume</p>
+          </li>
+          <li>
+            <p>Github</p>
+          </li>
         </ul>
       </nav>
       <div>
