@@ -8,24 +8,23 @@ export default function NavBar() {
   return (
     <div className="header">
       <nav className="navbar">
-        <h5 style={{ color: "#E835AA" }}>Adenike .O.</h5>
+        <h5>Adenike Ogunmodede</h5>
         <ul>
           <li>
             <AnchorLink href="#">Home</AnchorLink>
           </li>
           <li>
-            <AnchorLink href="#about">About me</AnchorLink>
+            <AnchorLink href="#about">About</AnchorLink>
           </li>
           <li>
-            <AnchorLink href="#project">Portfolio</AnchorLink>
+            <a href="https://drive.google.com/file/d/1xR5gcXqS1PZIGUB24-dRq-sh8tFrj6I5/view?usp=share_link">
+              Resume
+            </a>
           </li>
           <li>
-            <a href="https://denike.hashnode.dev/">Blog</a>
+            <a href="https://github.com/Denike-d">Github</a>
           </li>
         </ul>
-        <p>
-          <AnchorLink href="adenicks727@gmail.com">Contact me</AnchorLink>
-        </p>
       </nav>
       <div>
         <div></div>

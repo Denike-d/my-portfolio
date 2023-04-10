@@ -1,0 +1,64 @@
+.project-container{
+    margin: 2rem 7rem;
+    .project{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3rem;
+        align-items: center;
+        margin-top: 3rem;
+        
+        .project-work{
+            background-color: #EEE7CD;
+            display: inline-block;
+            width: 500px;
+            border-radius: 0.5rem;
+
+            .view{
+
+                svg{
+                    width: 24px;
+                    margin-right: 0.5rem;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: rgb(110, 110, 110)
+                }
+            }
+
+            .project-details{
+                padding: 2rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 700px) {
+    .project-container{
+        margin: 1rem 3rem;
+        .project{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+    
+            .project-work{
+                width: 250px;
+    
+                .image{
+                    width: 250px;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+                .project-details{
+                    h5{
+                        font-size: 15px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+}

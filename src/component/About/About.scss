@@ -1,19 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .about{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 3rem;
     margin: 5rem 3rem;
-
-    .about__image{
-        object-fit: cover;
-    }
+    align-items: center;
     .about__bio{
         margin: auto;
+
+        .about__text{
+            padding-right: 1rem;
+        }
     }
     .about__icons{
         margin-top: 1rem;
     }
+    .about-skills{
+        height: 400px;
+        .skill{
+            p {
+                font-size: 1.2rem;
+            }
+        }
+        .work-experience{
+            margin-top: 3rem;
+        }
+    }
 }
+#skills{
+    overflow-y: scroll;
+}
+
 @media only screen and (max-width: 700px) {
     .about{
         display: grid;
@@ -23,5 +43,13 @@
         .about__img{
             width: 250px;
         }
+        .about__bio{
+            .about__text{
+                #text{
+                    font-size: 0.5rem;
+                }
+            }
+        }
+       
     }
 }
