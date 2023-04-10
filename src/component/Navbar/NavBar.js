@@ -17,10 +17,12 @@ export default function NavBar() {
             <AnchorLink href="#about">About</AnchorLink>
           </li>
           <li>
-            <p>Resume</p>
+            <a href="https://drive.google.com/file/d/1xR5gcXqS1PZIGUB24-dRq-sh8tFrj6I5/view?usp=share_link">
+              Resume
+            </a>
           </li>
           <li>
-            <p>Github</p>
+            <a href="https://github.com/Denike-d">Github</a>
           </li>
         </ul>
       </nav>

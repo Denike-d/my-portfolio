@@ -43,5 +43,13 @@
         .about__img{
             width: 250px;
         }
+        .about__bio{
+            .about__text{
+                #text{
+                    font-size: 0.5rem;
+                }
+            }
+        }
+       
     }
 }

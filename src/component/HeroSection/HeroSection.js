@@ -5,9 +5,11 @@ export default function HeroSection() {
   return (
     <div className="heroSection">
       <div className="heroSection__text">
-        <p className="name">Hello! I am Adenike</p>
+        <p className="name">Hello! I am Adenike,</p>
+        <br />
         <p>
-          A Frontend developer, with passion for creating appealing websites.
+          A frontend developer possessing a passion for designing visually
+          captivating websites.
         </p>
       </div>
     </div>

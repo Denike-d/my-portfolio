@@ -13,7 +13,7 @@ export default function Footer() {
     return (
       <a
         href={`mailto:${email}?subject=${subject || ""}&body=${body || ""}`}
-        style={{ color: "white", textDecoration: "none" }}
+        style={{ color: "black", textDecoration: "none" }}
       >
         {props.children}
       </a>
@@ -22,23 +22,27 @@ export default function Footer() {
 
   return (
     <Fragment>
-      <hr style={{ margin: "4rem 7rem" }}></hr>
+      <hr style={{ margin: "2rem 7rem" }}></hr>
       <div className="footer">
         <div className="container">
           <div>
-            <p style={{ fontWeight: "medium" }}>Contact</p>
+            <p style={{ fontWeight: "bold" }}>Contact</p>
             <div className="contact">
               <div class="contact__image">
                 {
                   <EnvelopeIcon
                     width={18}
                     height={18}
-                    style={{ color: "white" }}
+                    style={{ color: "black" }}
                   />
                 }
                 <span style={{ marginLeft: "6px", textDecoration: "none" }}>
                   <Mailto
-                    style={{ marginLeft: "6px", textDecoration: "none" }}
+                    style={{
+                      marginLeft: "6px",
+                      textDecoration: "none",
+                      color: "black",
+                    }}
                     email="adenicks727@gmail.com"
                     subject=""
                     body=""
@@ -50,7 +54,7 @@ export default function Footer() {
             </div>
 
             <div className="socials">
-              {/* <p>Connect with me:</p> */}
+              {/* <p>Socials</p> */}
               <div className="social__images">
                 <a href="https://www.instagram.com/denike_dd/">
                   <img
@@ -90,9 +94,9 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-            <div>
+            {/* <div>
               <p>Copyright </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

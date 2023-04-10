@@ -13,12 +13,14 @@
     justify-content: space-between;
     margin: 0 2rem;
     align-items: center;
+
    
 
     ul {
       display: flex;
       justify-content: space-between;
       list-style-type: none;
+      
       
     }
     
@@ -48,10 +50,27 @@
   .header{
      position: relative;
      
-  }
-  .heroSection__text{
+     .navbar{
+      display: block;
+      justify-content: center;
+
+      h5{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      ul{
+        padding-left: 0;
+        margin-top: 1rem;
+      }
+     }
+
+     .heroSection__text{
       display: flex;
       margin: auto;
   }
+  }
+
 
 }
