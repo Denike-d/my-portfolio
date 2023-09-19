@@ -1,11 +1,11 @@
 .project-container{
-    margin: 2rem 7rem;
+    margin: 3rem 7rem;
     .project{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 3rem;
         align-items: center;
-        margin-top: 3rem;
+        margin-top: 2rem;
         
         .project-work{
             background-color: #EEE7CD;
@@ -24,6 +24,8 @@
                     text-decoration: none;
                     color: rgb(110, 110, 110)
                 }
+                display: flex;
+                gap: 20px;
             }
 
             .project-details{
