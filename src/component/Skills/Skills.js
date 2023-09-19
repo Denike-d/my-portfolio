@@ -15,6 +15,9 @@ export default function Skills() {
         <p>CSS</p>
         <p>JavaScript</p>
         <p>React</p>
+        <p>Tailwind CSS</p>
+        <p>Firebase</p>
+        <p>Redux</p>
       </div>
     </div>
   );
