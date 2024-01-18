@@ -17,7 +17,7 @@ export default function NavBar() {
             <AnchorLink href="#about">About</AnchorLink>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1xR5gcXqS1PZIGUB24-dRq-sh8tFrj6I5/view?usp=share_link">
+            <a href="https://drive.google.com/file/d/1DL7a4Wv5uViW_JQ3ZWub88wSp4LmwVcb/view?usp=sharing">
               Resume
             </a>
           </li>
